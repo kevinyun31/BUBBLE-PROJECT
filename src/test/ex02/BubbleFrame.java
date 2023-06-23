@@ -15,7 +15,7 @@ public class BubbleFrame extends JFrame {
         setVisible(true);
     }
 
-    private void initObject() {
+    private void initObject() { // 게임 속 캐릭
         backgroundMap = new JLabel(new ImageIcon("image/backgroundMap.png"));
         setContentPane(backgroundMap);
 
@@ -23,7 +23,7 @@ public class BubbleFrame extends JFrame {
         add(player);
     }
 
-    private void initSetting() {
+    private void initSetting() { // 게임 화면 창틀
         setSize(1000, 640);
         setLayout(null);
         setLocationRelativeTo(null);

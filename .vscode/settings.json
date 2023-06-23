@@ -1,7 +1,43 @@
+
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
-}
+    "java.compile.nullAnalysis.nonnull": [
+      "javax.annotation.Nonnull",
+      "org.eclipse.jdt.annotation.NonNull",
+      "org.springframework.lang.NonNull"
+    ],
+    "java.configuration.runtimes": [
+    
+      {
+        "name": "JavaSE-11",
+        "path": "C:\\Program Files\\Zulu\\zulu-11"
+      }
+    ],
+    "workbench.colorTheme": "Jetbrains Fleet",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.lineHeight": 1.1,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": false,
+    "window.zoomLevel": 1,
+    "java.completion.favoriteStaticMembers": [
+      "org.junit.Assert.*",
+      "org.junit.Assume.*",
+      "org.junit.jupiter.api.Assertions.*",
+      "org.junit.jupiter.api.Assumptions.*",
+      "org.junit.jupiter.api.DynamicContainer.*",
+      "org.junit.jupiter.api.DynamicTest.*",
+      "org.mockito.Mockito.*",
+      "org.mockito.ArgumentMatchers.*",
+      "org.mockito.Answers.*"
+    ],
+    "editor.formatOnSave": true,
+    "editor.indentSize": "tabSize",
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+  }
+  
